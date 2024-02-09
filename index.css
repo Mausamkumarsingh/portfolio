@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; /* Change the background color as needed */
+    padding: 10px 20px; /* Adjust padding according to your design */
+}
+
+.main-logo {
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+}
+
+.nav-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between items as needed */
+    cursor: pointer;
+}
+
+.nav-items li:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+.main-content{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 10rem;
+
+}
+.my-desc{
+    margin-right:10vw ;
+    
+}
+.name {
+    font-size: 60px;
+}
+
+.my-main-image img{
+    height: 27rem;
+    width: 25rem;
+    position: relative;
+    border-radius: 10%;
+}
+.about{
+    color: whitesmoke;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; 
+}
+.main-heading-about{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 30px;    
+
+}
+.about-content{
+    text-align: center;
+    font-size: 40px;
+}
+.my-skills{
+    color: white;
+    font-size: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.my-skills li{
+    list-style: none;
+    display: flex;
+    margin: 20px;
+}
+.my-work{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.image-containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.projects {
+    width: calc(30.33% - 20px); 
+    margin: 23px; 
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.project-name {
+    text-align: center;
+    margin-top: 10px; 
+    font-weight: bold; 
+}
